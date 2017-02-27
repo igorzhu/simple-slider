@@ -1,0 +1,82 @@
+.slider
+	{
+		width: 900px;
+		margin: 100px auto 50px;
+		overflow: hidden;
+		position: relative;
+	}
+	
+.controls
+	{
+		position: absolute;
+		top: 50%;
+		margin-top: -32px;
+		width: 100%;
+	}
+	
+.controls a
+	{
+		position: absolute;
+		outline: none;
+		text-decoration: none;
+		border-radius: 50%;
+		background: rgba(0, 0, 0, 0.4);
+		width: 64px;
+		height: 64px;
+		box-sizing: content-box;
+		padding: 10px;
+	}
+	
+.controls .l_arrow
+	{
+		left: 10px;
+	}
+	
+.controls .r_arrow
+	{
+		right: 10px;
+	}
+	
+.controls img
+	{
+		outline: none;
+		position: absolute;
+		top: 50%;
+		margin-top: -32px;
+		left: 50%;
+		
+	}
+	
+.l_arrow img
+	{
+		margin-left: -25px;
+	}
+	
+.r_arrow img
+	{
+		margin-left: -13px;
+	}
+	
+.pics
+	{
+		margin: 0;
+		padding: 0;
+		white-space: nowrap;
+		position: relative;
+		/*transition: all 0.7s;*/
+	}
+	
+.pics li
+	{
+		list-style-type: none;
+		display: block;
+		float: left;
+	}
+	
+@media screen and (max-width: 900px){
+	
+	.slider
+		{
+			width: 95%;
+		}
+}
